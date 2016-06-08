@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:text="My Nanodegree Apps!"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="18dp"/>
+
+    <Button
+        style="@style/custom"
+        android:text="Popular Movies"
+        />
+
+    <Button
+        style="@style/custom"
+        android:text="Stock Hawk"
+        />
+
+    <Button
+        style="@style/custom"
+        android:text="Build It Bigger"
+        />
+
+    <Button
+        style="@style/custom"
+        android:text="Make Your App Material"
+        />
+
+    <Button
+        style="@style/custom"
+        android:text="Go Ubiquitious"
+        />
+
+    <Button
+        style="@style/CustomHighlight"
+        android:text="Capstone"
+        />
+
+</LinearLayout>
