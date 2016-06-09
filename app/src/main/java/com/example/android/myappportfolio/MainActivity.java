@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayToast(View view){
-        Toast.makeText(MainActivity.this,"This button will launch my "+((Button)view).getText().toString()+" app!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,getString(R.string.launch_toast)+" "+((Button)view).getText().toString()+" app!",Toast.LENGTH_SHORT).show();
     }
 }
